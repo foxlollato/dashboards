@@ -1,13 +1,7 @@
-#h1a {
-    font-size: 2rem;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-}
 .divChart {
     border: 1px;
     border-style: dashed;
     border-color: black;
-    
 }
 
 .mainDiv {
@@ -15,8 +9,7 @@
     /* overflow: scroll; */
 }
 
-
-.right {
+.left {
     flex: auto;
    padding-left: 50px;
    padding-right: 50px;
