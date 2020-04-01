@@ -7,7 +7,6 @@ import { Chart } from 'chart.js';
 window.addEventListener('load', run);
 
 function run(){
-  console.log('runou');
   chart1();
   chart2();
 };
