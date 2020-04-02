@@ -13,3 +13,7 @@
 .left {
     width: 800px;
 }
+
+body {
+    overflow:hidden;
+}
