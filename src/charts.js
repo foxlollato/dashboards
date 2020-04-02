@@ -10,6 +10,7 @@ async function  run(){
   const data = await getData();
   chart1(data);
   chart2(data);
+  doResize();
 };
   
   
@@ -51,7 +52,9 @@ function chart2(data) {
         }
       ]
     },
-    options: {}
+    options: {
+      responsive: true
+    }
   });
 };
 
@@ -71,3 +74,7 @@ async function getData() {
   });
   return { loc, commit, name };
 };
+
+function doResize() {
+  document.getElementById('container').style.height = (window.innerHeight - 10) + "px";
+}

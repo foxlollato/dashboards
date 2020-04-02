@@ -4,14 +4,12 @@
     border-color: black;
 }
 
-.mainDiv {
-    display: flex;
-    /* overflow: scroll; */
+.fit {
+    /* display: flex; */
+    overflow: scroll;
 }
 
+
 .left {
-    flex: auto;
-   padding-left: 50px;
-   padding-right: 50px;
-   
+    width: 800px;
 }
