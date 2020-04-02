@@ -5,6 +5,7 @@ import { Chart } from 'chart.js';
 
 
 window.addEventListener('load', run);
+window.addEventListener('resize', doResize);
 
 async function  run(){
   const data = await getData();
